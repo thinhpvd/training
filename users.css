@@ -38,7 +38,7 @@ form {
 button {
   background-color: blue; /* <button_background_color> */
   color: white; /* <button_text_color> */
-  border: none;
+  border: none; /* <border none> */
   border-radius: 4px;
   padding: 8px;
   width: 100px;
