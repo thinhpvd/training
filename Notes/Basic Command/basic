@@ -1,0 +1,125 @@
+# 🐧 Basic Linux/macOS Terminal Commands
+
+> These are essential shell commands for navigating and working in the Terminal on Linux and macOS. The shell used is typically **bash** or **zsh**.
+
+---
+
+## 🗂️ Navigation
+
+| Command | Description |
+|--------|-------------|
+| `pwd` | Print current working directory |
+| `ls` | List files in directory |
+| `ls -l` | Long listing format (shows permissions, size, etc.) |
+| `ls -a` | Show all files (including hidden) |
+| `cd foldername/` | Change directory into folder |
+| `cd ..` | Go up one level |
+| `cd /` | Go to root directory |
+| `cd ~` | Go to home directory |
+| `cd -` | Go to previous directory |
+
+---
+
+## 📁 Files & Directories
+
+| Command | Description |
+|--------|-------------|
+| `mkdir foldername` | Create a new folder |
+| `touch filename` | Create an empty file |
+| `cp file newfile` | Copy file |
+| `cp -r folder newfolder` | Copy folder recursively |
+| `mv source target` | Move or rename file/folder |
+| `rm file` | Delete file |
+| `rm -r folder` | Delete folder and its contents |
+| `open filename` | Open file with default app (macOS) |
+| `open .` | Open current directory in Finder (macOS) |
+
+---
+
+## 📄 Viewing Files
+
+| Command | Description |
+|--------|-------------|
+| `cat file` | Print file contents |
+| `less file` | View file with scroll (q to quit) |
+| `head file` | Show first 10 lines |
+| `tail file` | Show last 10 lines |
+| `tail -f file` | Live follow changes to file (like logs) |
+
+---
+
+## 🛠️ File Permissions
+
+| Command | Description |
+|--------|-------------|
+| `chmod +x file.sh` | Make script executable |
+| `chmod 755 file` | Set permission (read/write/execute) |
+| `chown user:group file` | Change owner of a file |
+
+---
+
+## 📦 System Info
+
+| Command | Description |
+|--------|-------------|
+| `whoami` | Show current user |
+| `uname -a` | System info |
+| `top` or `htop` | Live system resource usage |
+| `df -h` | Disk space (human readable) |
+| `du -sh folder/` | Folder size summary |
+| `date` | Show current date and time |
+| `uptime` | Show how long the system has been running |
+
+---
+
+## 🔍 Search
+
+| Command | Description |
+|--------|-------------|
+| `find . -name filename` | Find file recursively |
+| `grep "text" file` | Search for text in file |
+| `grep -r "text" folder/` | Search recursively |
+
+---
+
+## 🔄 Processes
+
+| Command | Description |
+|--------|-------------|
+| `ps` | Show active processes |
+| `ps aux` | Detailed process list |
+| `kill PID` | Kill process by PID |
+| `kill -9 PID` | Force kill process |
+| `&` | Run command in background |
+| `ctrl + c` | Cancel/stop running command |
+| `ctrl + z` | Suspend running job |
+| `jobs` | List background/suspended jobs |
+| `fg` | Bring background job to foreground |
+
+---
+
+## 🔧 Miscellaneous
+
+| Command | Description |
+|--------|-------------|
+| `history` | Show command history |
+| `clear` | Clear terminal screen |
+| `alias ll='ls -la'` | Create command shortcut (alias) |
+| `which command` | Show full path to a command |
+| `man command` | Show manual for command |
+| `echo "text"` | Print text to terminal |
+
+---
+
+## 📂 Dotfiles You Should Know
+
+| File | Purpose |
+|------|---------|
+| `.bashrc`, `.zshrc` | Shell config (aliases, env vars, etc.) |
+| `.gitconfig` | Git global config |
+| `.ssh/` | SSH keys and known hosts |
+| `.profile`, `.bash_profile` | Login shell startup files |
+
+---
+
+🧠 **Tip**: Use `Tab` for autocompletion, and `↑ / ↓` arrows to scroll through past commands!

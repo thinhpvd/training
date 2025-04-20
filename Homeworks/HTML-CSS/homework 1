@@ -1,0 +1,86 @@
+# 📝 Homework: Build a Mini Website – "My Learning Library"
+
+## 📌 Goal:
+Create a simple multi-page website that showcases **Users**, **Subjects**, and **Books** using **HTML and CSS only**. The final product should help you deeply understand:
+
+- HTML structure and elements
+- CSS styling, selectors, pseudo-classes/elements
+- Style cascading and file organization
+
+---
+
+## 🧱 Pages to Create
+
+Create **3 HTML pages**:
+
+1. `index.html` – Homepage that introduces the website
+2. `users.html` – List of users with details
+3. `library.html` – List of subjects and books under each subject
+
+---
+
+## 🎯 Requirements
+
+### 1. HTML Elements (Use at least once)
+
+Use the following tags where appropriate across your pages:
+
+`html`, `body`, `head`, `header`, `footer`, `a`, `area`, `article`, `audio`
+`code`, `div`, `embed`, `form`, `iframe`, `h1` → `h6`, `b`, `br`, `button`, `canvas`
+`img`, `input`, `label`, `li`, `link`, `menu`, `ol`, `select`, `option`
+`strong`, `table`, `th`, `td`, `tr`, `u`, `ul`, `video`
+`style`, `script` (script can be empty placeholder for now)
+
+> 💡 **Tip:** You can use `audio`, `video`, or `iframe` to embed content like YouTube or sample mp3/video files.
+
+---
+
+### 2. HTML Attributes
+
+Use:
+- `id`, `class`
+- Common attributes like: `href`, `src`, `alt`, `type`, `name`, `value`, `target`, etc.
+
+---
+
+### 3. CSS Topics to Cover
+
+#### ✅ CSS Syntax & Selectors
+
+Use:
+- **Internal**, **inline**, and **external** CSS
+- CSS Selectors:
+  - `.class`, `#id`
+  - `element`, `element element`, `element > element`
+  - `[attribute]`, `[attribute=value]`, `[attribute^=value]`, `[attribute*=value]`
+
+#### ✅ CSS Properties
+
+Use:
+- `background`, `border`, `color`, `cursor`, `display`, `flex`
+- `font-family`, `font-size`, `font-weight`, `font-style`, `@font-face`
+- `width`, `height`, `margin`, `padding`, `position`, `top`, `left`, `float`
+- `line-height`, `list-style`, `opacity`, `overflow`
+- `animation` *(optional: simple keyframe)*
+
+#### ✅ Pseudo Classes & Elements
+
+Use at least **5** of the following:
+- `:hover`, `:focus`, `:checked`, `:first-child`, `:last-child`
+- `::before`, `::after`, `:nth-child(n)`, `:not(selector)`
+
+---
+
+## 📂 Suggested Folder Structure
+
+```text
+/my-learning-library
+│
+├── index.html
+├── users.html
+├── library.html
+├── styles/
+│   └── main.css
+└── assets/
+    ├── images/
+    └── media/

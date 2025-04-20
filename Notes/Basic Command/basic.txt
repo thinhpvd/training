@@ -1,8 +1,0 @@
-Command:
-- cd <address>: change directory
-- cd ..: return to the previous directory
-- ls <address>: list directory and files
-- mkdir: make a directory
-- clear: clear terminal content
-- nano <filepath>: edit a file content
-- cat <filepath>: get file content
