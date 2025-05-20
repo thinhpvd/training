@@ -1,0 +1,68 @@
+/* Reset mặc định */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url('https://rentle.onrender.com/images/apartment-balcony-view.jpg');
+  background-color: #f7f7f7;
+  height: 100vh;
+  display: grid;
+  place-items: center; /* Căn giữa theo cả 2 chiều */
+}
+
+.container {
+  width: 100%;
+  max-width: 420px;
+  padding: 20px;
+}
+
+.signup-form {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  display: grid;
+  gap: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-form h2 {
+  text-align: center;
+  color: #333;
+}
+
+/* Grid layout cho các label và input */
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.form-grid label {
+  font-weight: 500;
+  color: #555;
+}
+
+.form-grid input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 12px;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #27ae60;
+}
