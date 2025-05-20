@@ -4,9 +4,9 @@ body {
     background-color: white;
   }
   .container {
-    max-width: 900px;
+    max-width: 90vw;
     margin: 24px auto;
-    border: 1px solid black;
+    
   }
   header {
     display: flex;
@@ -157,7 +157,6 @@ body {
       margin-left: auto;
       padding: 20px;
       margin-bottom: 20px;
-      max-width: 750px;
       flex-direction: row;
     }
 
@@ -176,4 +175,42 @@ body {
     .info .description {
       color: #77838f;
     }
+
+    #rent-process {
+      display: flex;
+      position: relative;
+    }
     
+    .images, .steps {
+      flex: 1 1 0;
+    }
+
+    .images img {
+      width: 195px;
+      height: 150px;
+      position: absolute;
+      top: 100px;
+      left: 37px;
+      border-radius: 20px;
+    }
+
+    .images .image-1 {
+      top: 270px;
+      left: 300px;
+      width: 215px;
+      height: 145px;
+    }
+
+    .images .image-2 {
+      top: 44px;
+      left: 250px;
+      width: 310px;
+      height: 205px;
+    }
+
+    .images .image-3 {
+      width: 215px;
+      height: 147px;
+      top: 272px;
+      left: 62px;
+    }
