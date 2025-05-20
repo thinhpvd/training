@@ -148,7 +148,7 @@ body {
       font-weight: bold;
     }
 
-    .step-one {
+    .step-box {
       border: 1px solid #e7eaf3;
       display: flex;
       align-items: flex-start;
@@ -158,16 +158,13 @@ body {
       padding: 20px;
       margin-bottom: 20px;
       max-width: 750px;
-      flex-direction: column;
-
+      flex-direction: row;
     }
 
     .number {
       font-size: 60px;
       color:#77838f;
       margin-right: 10px;
-      
-      
     }
 
     .info .title {
@@ -178,58 +175,5 @@ body {
 
     .info .description {
       color: #77838f;
-
     }
-    
-    .step-box {
-      border: 1px solid #e7eaf3;
-      padding: 20px;
-      flex-direction: column;
-      display: flex;
-      gap: 15px;
-      border-radius: 4px;
-      flex-direction: column;
-      
-    }
-
-    .step-number {
-      font-size: 60px;
-      color: #77838f;
-      margin-right: 10px;
-    }
-
-    .step-content .title-2 {
-     font-size: 20px;
-      font-weight: bold;
-      margin: 0;
-    }
-
-    .step-content .description-2 {
-     color: #77838f;
-      
-    }
-
-    .step-three {
-      border: 1px solid #e7eaf3;
-      padding: 20px;
-      flex-direction: column;
-      display: flex;
-      gap: 15px;
-      border-radius: 4px;
-      flex-direction: column;
-    }
-
-    .step-for {
-      font-size: 60px;
-      color: #77838f;
-      margin-right: 10px;
-    }
-
-    .step-live .title-3 {
-      font-size: 20px;
-      font-weight: bold;
-      margin: 0;
-    }
-
-
     
